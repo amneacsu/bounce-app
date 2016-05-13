@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  background: #e8e8e8;
+  margin: 0;
+}
+
+canvas {
+  cursor: inherit;
+  background: #fff;
+  display: block;
+}
+
+header {
+  position: relative;
+  background: #eee;
+  color: #999;
+  -webkit-app-region: drag;
+  text-shadow: 1px 1px 0 #fff;
+  border-bottom: #ddd 1px solid;
+}
+
+header h1 {
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: default;
+  text-align: center;
+  line-height: 60px;
+}
+
+#close {
+  -webkit-app-region: no-drag;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 12px;
+  padding: 5px 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #444;
+  line-height: 20px;
+}
+
+footer, footer a {
+  color: #999;
+}
